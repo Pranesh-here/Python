@@ -1,0 +1,17 @@
+print("\nHoliday Hotel Welcomes You!")
+idly = 12
+dosa = 18
+parotta = 15
+chickenkothu = 70
+roti = 7
+briyani = 120
+print("\nSelect the dishes quantity you had:")
+print('HINT: "If you didn\'t had an item enter 0 there"')
+id=int(input("Idly:"))
+do=int(input("Dosa:"))
+pa=int(input("Parotta:"))
+ck=int(input("Chicken kothu:"))
+ro=int(input("Roti:"))
+bri=int(input("Briyani:"))
+cost= (id*idly)+(do*dosa)+(pa*parotta)+(ck*chickenkothu)+(ro*roti)+(bri*briyani)
+print("The bill amount you have to pay is:\t%.2f" %(cost))
