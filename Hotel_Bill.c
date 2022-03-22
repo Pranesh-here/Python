@@ -9,5 +9,4 @@ int main()
     scanf("%d %d %d %d %d %d",&id,&ds,&pa,&ck,&ro,&bri);
     cost= ((id*idly)+(ds*dosa)+(pa*parotta)+(ck*chickenkothu)+(ro*roti)+(bri*briyani));
     printf("\nThe bill amount you have to pay is:\t%.2f",cost);
-    return 0;
 }
